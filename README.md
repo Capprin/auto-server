@@ -7,6 +7,7 @@ Contains source and bash scripts for a cloud-hosted minecraft server that automa
 This project depends on:
 - An AWS EC2 instance for running the actual server
 - An AWS Lambda function, responsible for starting the EC2 instance when it receives the correct POST request
+- (Optional) An AWS Route53 DNS, to be updated with the address of the EC2 instance on startup
 - (Optional) A static website, hosting a web form for submitting a startup request
 
 ## Setup
