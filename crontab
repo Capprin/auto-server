@@ -1,0 +1,2 @@
+@reboot /home/ec2-user/setup.sh
+*/5 * * * * /home/ec2-user/autoshutdown.sh

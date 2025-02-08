@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="icon" href="./icon.png">
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <title>Server Start</title>
+</head>
+
+<body>
+    <div class="form-style">
+        <h1>Server Start Request</h1>
+        <form action="https://gd1eos8i63.execute-api.us-west-2.amazonaws.com/start/", method="POST">
+            <input type="text" name="password" placeholder="Password" required>
+            Provide IP? <input type="checkbox" name="wait" value="true"><br><br>
+            <input type="submit" value="Start">
+        </form>
+    </div>
+</body>
+
+</html>
